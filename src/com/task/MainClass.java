@@ -73,7 +73,7 @@ public class MainClass {
             choice = Integer.parseInt(sChoice);
         }
         catch (Exception e){
-            throw new Exception(">> Err: Please enter a number!");
+            throw new Exception(">> Err: Please enter a number! ");
         }
         if (choice > 0 && choice < 8){
             return choice;
