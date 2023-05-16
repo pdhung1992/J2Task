@@ -78,7 +78,7 @@ public class MainClass {
         if (choice > 0 && choice < 8){
             return choice;
         }else {
-            throw new Exception(">> Err: Please enter a number form 1 to 7!");
+            throw new Exception(">> Err: Please enter a number form 1 to 7! ");
         }
     }
 }
